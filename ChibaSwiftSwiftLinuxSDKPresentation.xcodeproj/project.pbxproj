@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D025F95B88A6A02C31A3EEF /* ChibaSwiftSwiftLinuxSDKPresentationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5F32B4D0070D030095A10 /* ChibaSwiftSwiftLinuxSDKPresentationApp.swift */; };
+		7889E1DA4D353B19CECE1F66 /* SlideKit in Frameworks */ = {isa = PBXBuildFile; productRef = D9E8550ED6AB0A42244705A8 /* SlideKit */; };
+		90BAB87D11FC0142F77D23D6 /* SampleSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED8B58BF72793F832AA19F4 /* SampleSlide.swift */; };
+		E637CCC04E90B84F319CFD93 /* SlideConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB79A7067A5B23208533A0F /* SlideConfiguration.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06A36A6F087DD2752E00EAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		071E181B1C2F7F03C90CE135 /* ChibaSwiftSwiftLinuxSDKPresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChibaSwiftSwiftLinuxSDKPresentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F5F32B4D0070D030095A10 /* ChibaSwiftSwiftLinuxSDKPresentationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChibaSwiftSwiftLinuxSDKPresentationApp.swift; sourceTree = "<group>"; };
+		5ED8B58BF72793F832AA19F4 /* SampleSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSlide.swift; sourceTree = "<group>"; };
+		CAB79A7067A5B23208533A0F /* SlideConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideConfiguration.swift; sourceTree = "<group>"; };
+		FF1730EA010EB1E52C9493DD /* ChibaSwiftSwiftLinuxSDKPresentation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChibaSwiftSwiftLinuxSDKPresentation.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D099B6E9534E78B19949B20C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7889E1DA4D353B19CECE1F66 /* SlideKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E8BE1094CFC550195BA761F = {
+			isa = PBXGroup;
+			children = (
+				50FBB08A7050C4D9AD0DCEF2 /* ChibaSwiftSwiftLinuxSDKPresentation */,
+				47AC739BAFB9790DF0CC4286 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47AC739BAFB9790DF0CC4286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				071E181B1C2F7F03C90CE135 /* ChibaSwiftSwiftLinuxSDKPresentation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50FBB08A7050C4D9AD0DCEF2 /* ChibaSwiftSwiftLinuxSDKPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				FF1730EA010EB1E52C9493DD /* ChibaSwiftSwiftLinuxSDKPresentation.entitlements */,
+				22F5F32B4D0070D030095A10 /* ChibaSwiftSwiftLinuxSDKPresentationApp.swift */,
+				06A36A6F087DD2752E00EAE1 /* Info.plist */,
+				CAB79A7067A5B23208533A0F /* SlideConfiguration.swift */,
+				CA195DFB2A5078C6C5440A5E /* Slides */,
+			);
+			path = ChibaSwiftSwiftLinuxSDKPresentation;
+			sourceTree = "<group>";
+		};
+		CA195DFB2A5078C6C5440A5E /* Slides */ = {
+			isa = PBXGroup;
+			children = (
+				5ED8B58BF72793F832AA19F4 /* SampleSlide.swift */,
+			);
+			path = Slides;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		429C6B5F95A43C746D41E473 /* ChibaSwiftSwiftLinuxSDKPresentation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3AA3355A7980B565C4C40DB /* Build configuration list for PBXNativeTarget "ChibaSwiftSwiftLinuxSDKPresentation" */;
+			buildPhases = (
+				8DA41CF1DF6DDC89DD047089 /* Sources */,
+				D099B6E9534E78B19949B20C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChibaSwiftSwiftLinuxSDKPresentation;
+			packageProductDependencies = (
+				D9E8550ED6AB0A42244705A8 /* SlideKit */,
+			);
+			productName = ChibaSwiftSwiftLinuxSDKPresentation;
+			productReference = 071E181B1C2F7F03C90CE135 /* ChibaSwiftSwiftLinuxSDKPresentation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EEF492F3EA4CFC9BA213635 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 1EB7B8D6EB1DE32F7705531B /* Build configuration list for PBXProject "ChibaSwiftSwiftLinuxSDKPresentation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 2E8BE1094CFC550195BA761F;
+			packageReferences = (
+				B33A7C57E07DC660E6464830 /* XCRemoteSwiftPackageReference "SlideKit" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				429C6B5F95A43C746D41E473 /* ChibaSwiftSwiftLinuxSDKPresentation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DA41CF1DF6DDC89DD047089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D025F95B88A6A02C31A3EEF /* ChibaSwiftSwiftLinuxSDKPresentationApp.swift in Sources */,
+				90BAB87D11FC0142F77D23D6 /* SampleSlide.swift in Sources */,
+				E637CCC04E90B84F319CFD93 /* SlideConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3058D65B0C7B9F0F2DDDE9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = ChibaSwiftSwiftLinuxSDKPresentation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.mtj0928.SlideGen.ChibaSwiftSwiftLinuxSDKPresentation;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5BF36190132400E78F8DCE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B7658D93444498CCA78B37DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F8F4A08B16146745A967A8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = ChibaSwiftSwiftLinuxSDKPresentation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.mtj0928.SlideGen.ChibaSwiftSwiftLinuxSDKPresentation;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EB7B8D6EB1DE32F7705531B /* Build configuration list for PBXProject "ChibaSwiftSwiftLinuxSDKPresentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7658D93444498CCA78B37DE /* Debug */,
+				5BF36190132400E78F8DCE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A3AA3355A7980B565C4C40DB /* Build configuration list for PBXNativeTarget "ChibaSwiftSwiftLinuxSDKPresentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3058D65B0C7B9F0F2DDDE9A6 /* Debug */,
+				F8F4A08B16146745A967A8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B33A7C57E07DC660E6464830 /* XCRemoteSwiftPackageReference "SlideKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mtj0928/SlideKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9E8550ED6AB0A42244705A8 /* SlideKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B33A7C57E07DC660E6464830 /* XCRemoteSwiftPackageReference "SlideKit" */;
+			productName = SlideKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7EEF492F3EA4CFC9BA213635 /* Project object */;
+}
