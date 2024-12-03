@@ -17,8 +17,8 @@ struct ChibaSwiftSwiftLinuxSDKPresentationApp: App {
     /// Edit the view here if you'd like to set environments, overlay views or background views.
     var presentationContentView: some View {
         SlideRouterView(slideIndexController: Self.configuration.slideIndexController)
-            .background(.white)
-            .foregroundColor(.black)
+            .background(.black)
+            .foregroundColor(.white)
     }
 
     var body: some Scene {

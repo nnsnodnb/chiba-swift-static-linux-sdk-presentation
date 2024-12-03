@@ -3,13 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1D025F95B88A6A02C31A3EEF /* ChibaSwiftSwiftLinuxSDKPresentationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5F32B4D0070D030095A10 /* ChibaSwiftSwiftLinuxSDKPresentationApp.swift */; };
 		7889E1DA4D353B19CECE1F66 /* SlideKit in Frameworks */ = {isa = PBXBuildFile; productRef = D9E8550ED6AB0A42244705A8 /* SlideKit */; };
 		90BAB87D11FC0142F77D23D6 /* SampleSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED8B58BF72793F832AA19F4 /* SampleSlide.swift */; };
+		CF134E342CFF5A7200B96E0E /* HelloFuller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF134E332CFF5A7200B96E0E /* HelloFuller.swift */; };
+		CF5EE3A52CFF4B0900478D54 /* TitleSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5EE3A42CFF4B0900478D54 /* TitleSlide.swift */; };
+		CF5EE3A72CFF4D6600478D54 /* SelfIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5EE3A62CFF4D6600478D54 /* SelfIntroduction.swift */; };
 		E637CCC04E90B84F319CFD93 /* SlideConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB79A7067A5B23208533A0F /* SlideConfiguration.swift */; };
 /* End PBXBuildFile section */
 
@@ -19,6 +22,9 @@
 		22F5F32B4D0070D030095A10 /* ChibaSwiftSwiftLinuxSDKPresentationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChibaSwiftSwiftLinuxSDKPresentationApp.swift; sourceTree = "<group>"; };
 		5ED8B58BF72793F832AA19F4 /* SampleSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSlide.swift; sourceTree = "<group>"; };
 		CAB79A7067A5B23208533A0F /* SlideConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideConfiguration.swift; sourceTree = "<group>"; };
+		CF134E332CFF5A7200B96E0E /* HelloFuller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloFuller.swift; sourceTree = "<group>"; };
+		CF5EE3A42CFF4B0900478D54 /* TitleSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSlide.swift; sourceTree = "<group>"; };
+		CF5EE3A62CFF4D6600478D54 /* SelfIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfIntroduction.swift; sourceTree = "<group>"; };
 		FF1730EA010EB1E52C9493DD /* ChibaSwiftSwiftLinuxSDKPresentation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChibaSwiftSwiftLinuxSDKPresentation.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,7 +46,9 @@
 				50FBB08A7050C4D9AD0DCEF2 /* ChibaSwiftSwiftLinuxSDKPresentation */,
 				47AC739BAFB9790DF0CC4286 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		47AC739BAFB9790DF0CC4286 /* Products */ = {
 			isa = PBXGroup;
@@ -66,6 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				5ED8B58BF72793F832AA19F4 /* SampleSlide.swift */,
+				CF5EE3A42CFF4B0900478D54 /* TitleSlide.swift */,
+				CF5EE3A62CFF4D6600478D54 /* SelfIntroduction.swift */,
+				CF134E332CFF5A7200B96E0E /* HelloFuller.swift */,
 			);
 			path = Slides;
 			sourceTree = "<group>";
@@ -100,8 +111,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 1EB7B8D6EB1DE32F7705531B /* Build configuration list for PBXProject "ChibaSwiftSwiftLinuxSDKPresentation" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -130,6 +139,9 @@
 			files = (
 				1D025F95B88A6A02C31A3EEF /* ChibaSwiftSwiftLinuxSDKPresentationApp.swift in Sources */,
 				90BAB87D11FC0142F77D23D6 /* SampleSlide.swift in Sources */,
+				CF5EE3A72CFF4D6600478D54 /* SelfIntroduction.swift in Sources */,
+				CF5EE3A52CFF4B0900478D54 /* TitleSlide.swift in Sources */,
+				CF134E342CFF5A7200B96E0E /* HelloFuller.swift in Sources */,
 				E637CCC04E90B84F319CFD93 /* SlideConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

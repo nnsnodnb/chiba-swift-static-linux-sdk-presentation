@@ -1,0 +1,41 @@
+//
+//  TitleSlide.swift
+//  ChibaSwiftSwiftLinuxSDKPresentation
+//
+//  Created by Yuya Oka on 2024/12/03.
+//
+
+import SlideKit
+import SwiftUI
+
+@Slide
+struct TitleSlide: View {
+  var body: some View {
+    VStack(alignment: .center, spacing: 60) {
+      title
+      eventName
+    }
+  }
+
+  var shouldHideIndex: Bool { true }
+
+  var title: some View {
+    VStack(alignment: .center, spacing: 8) {
+      Text("入門 Swift Linux SDK")
+        .font(.system(size: 90, weight: .bold))
+      Text("Introduction Swift Linux SDK")
+        .font(.system(size: 55, weight: .bold))
+    }
+  }
+
+  var eventName: some View {
+    Text("Chiba.swift #2")
+      .font(.system(size: 40, weight: .bold))
+  }
+}
+
+#Preview {
+  SlidePreview {
+    TitleSlide()
+  }
+}
