@@ -13,12 +13,7 @@ struct AcknowledgementSlide: View {
   var body: some View {
     HeaderSlide(
       header: {
-        VStack(alignment: .leading, spacing: 10) {
-          Text("謝辞")
-            .font(.system(size: 60))
-          Text("Acknowledgements")
-            .font(.system(size: 40))
-        }
+        SlideTitle(japanese: "謝辞", english: "Acknowledgements")
       },
       content: {
         Item("mtj0928/SlideGen") {

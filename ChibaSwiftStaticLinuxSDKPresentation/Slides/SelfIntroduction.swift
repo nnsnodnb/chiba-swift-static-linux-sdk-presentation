@@ -18,7 +18,7 @@ struct SelfIntroduction: View {
 
   var body: some View {
     HeaderSlide {
-      title
+      SlideTitle(japanese: "お前誰よ", english: "Who am I")
     } content: {
       if phase.isAfter(.name) {
         item(
@@ -50,15 +50,6 @@ struct SelfIntroduction: View {
           english: "I worked at Fuller. Inc."
         )
       }
-    }
-  }
-
-  var title: some View {
-    VStack(alignment: .leading, spacing: 10) {
-      Text("お前誰よ")
-        .font(.system(size: 60))
-      Text("Who am I?")
-        .font(.system(size: 40))
     }
   }
 

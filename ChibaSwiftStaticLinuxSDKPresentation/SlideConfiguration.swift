@@ -16,6 +16,7 @@ struct SlideConfiguration {
   ///  Add your slides into the trailing closure.
   let slideIndexController = SlideIndexController {
     TitleSlide()
+    AgendaSlide()
     SelfIntroduction()
     HelloFuller()
     ReferenceSlide()

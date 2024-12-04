@@ -13,12 +13,7 @@ struct ReferenceSlide: View {
     var body: some View {
       HeaderSlide(
         header: {
-          VStack(alignment: .leading, spacing: 10) {
-            Text("参考")
-              .font(.system(size: 60))
-            Text("References")
-              .font(.system(size: 40))
-          }
+          SlideTitle(japanese: "参考", english: "References")
         },
         content: {
           Item("Swiftの新機能", accessory: 1) {

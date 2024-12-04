@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		CF134E362CFF5C1500B96E0E /* AcknowledgementSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF134E352CFF5C1500B96E0E /* AcknowledgementSlide.swift */; };
 		CF134E3B2CFF609C00B96E0E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF134E372CFF5F9700B96E0E /* Colors.xcassets */; };
 		CF134E3D2CFFFFFE00B96E0E /* ReferenceSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF134E3C2CFFFFFE00B96E0E /* ReferenceSlide.swift */; };
+		CF134E3F2D00182600B96E0E /* AgendaSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF134E3E2D00182600B96E0E /* AgendaSlide.swift */; };
 		CF5EE3A52CFF4B0900478D54 /* TitleSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5EE3A42CFF4B0900478D54 /* TitleSlide.swift */; };
 		CF5EE3A72CFF4D6600478D54 /* SelfIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5EE3A62CFF4D6600478D54 /* SelfIntroduction.swift */; };
 		E637CCC04E90B84F319CFD93 /* SlideConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB79A7067A5B23208533A0F /* SlideConfiguration.swift */; };
@@ -29,10 +30,15 @@
 		CF134E352CFF5C1500B96E0E /* AcknowledgementSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgementSlide.swift; sourceTree = "<group>"; };
 		CF134E372CFF5F9700B96E0E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		CF134E3C2CFFFFFE00B96E0E /* ReferenceSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceSlide.swift; sourceTree = "<group>"; };
+		CF134E3E2D00182600B96E0E /* AgendaSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaSlide.swift; sourceTree = "<group>"; };
 		CF5EE3A42CFF4B0900478D54 /* TitleSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSlide.swift; sourceTree = "<group>"; };
 		CF5EE3A62CFF4D6600478D54 /* SelfIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfIntroduction.swift; sourceTree = "<group>"; };
 		FF1730EA010EB1E52C9493DD /* ChibaSwiftStaticLinuxSDKPresentation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChibaSwiftStaticLinuxSDKPresentation.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CF134E402D003A2000B96E0E /* Components */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Components; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D099B6E9534E78B19949B20C /* Frameworks */ = {
@@ -72,6 +78,7 @@
 				06A36A6F087DD2752E00EAE1 /* Info.plist */,
 				CAB79A7067A5B23208533A0F /* SlideConfiguration.swift */,
 				CA195DFB2A5078C6C5440A5E /* Slides */,
+				CF134E402D003A2000B96E0E /* Components */,
 				CF134E372CFF5F9700B96E0E /* Colors.xcassets */,
 			);
 			path = ChibaSwiftStaticLinuxSDKPresentation;
@@ -82,6 +89,7 @@
 			children = (
 				5ED8B58BF72793F832AA19F4 /* SampleSlide.swift */,
 				CF5EE3A42CFF4B0900478D54 /* TitleSlide.swift */,
+				CF134E3E2D00182600B96E0E /* AgendaSlide.swift */,
 				CF5EE3A62CFF4D6600478D54 /* SelfIntroduction.swift */,
 				CF134E332CFF5A7200B96E0E /* HelloFuller.swift */,
 				CF134E3C2CFFFFFE00B96E0E /* ReferenceSlide.swift */,
@@ -104,6 +112,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CF134E402D003A2000B96E0E /* Components */,
 			);
 			name = ChibaSwiftStaticLinuxSDKPresentation;
 			packageProductDependencies = (
@@ -162,6 +173,7 @@
 				90BAB87D11FC0142F77D23D6 /* SampleSlide.swift in Sources */,
 				CF5EE3A72CFF4D6600478D54 /* SelfIntroduction.swift in Sources */,
 				CF5EE3A52CFF4B0900478D54 /* TitleSlide.swift in Sources */,
+				CF134E3F2D00182600B96E0E /* AgendaSlide.swift in Sources */,
 				CF134E342CFF5A7200B96E0E /* HelloFuller.swift in Sources */,
 				E637CCC04E90B84F319CFD93 /* SlideConfiguration.swift in Sources */,
 				CF134E362CFF5C1500B96E0E /* AcknowledgementSlide.swift in Sources */,
