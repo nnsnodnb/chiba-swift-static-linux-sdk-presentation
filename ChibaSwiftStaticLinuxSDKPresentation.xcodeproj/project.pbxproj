@@ -21,6 +21,8 @@
 		CF71DA822D008C42000BEFDB /* LinkingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71DA812D008C42000BEFDB /* LinkingSlide.swift */; };
 		CF71DA862D008D6A000BEFDB /* AboutStaticLinuxSDKSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71DA852D008D6A000BEFDB /* AboutStaticLinuxSDKSlide.swift */; };
 		CF71DA882D009F2F000BEFDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF71DA872D009F2F000BEFDB /* Assets.xcassets */; };
+		CF71DA8A2D00B069000BEFDB /* IncludingStaticSDKDockerImageSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71DA892D00B069000BEFDB /* IncludingStaticSDKDockerImageSlide.swift */; };
+		CF71DA8C2D00B16D000BEFDB /* PerformanceHelloSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71DA8B2D00B16D000BEFDB /* PerformanceHelloSlide.swift */; };
 		E637CCC04E90B84F319CFD93 /* SlideConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB79A7067A5B23208533A0F /* SlideConfiguration.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		CF71DA812D008C42000BEFDB /* LinkingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkingSlide.swift; sourceTree = "<group>"; };
 		CF71DA852D008D6A000BEFDB /* AboutStaticLinuxSDKSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutStaticLinuxSDKSlide.swift; sourceTree = "<group>"; };
 		CF71DA872D009F2F000BEFDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF71DA892D00B069000BEFDB /* IncludingStaticSDKDockerImageSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncludingStaticSDKDockerImageSlide.swift; sourceTree = "<group>"; };
+		CF71DA8B2D00B16D000BEFDB /* PerformanceHelloSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceHelloSlide.swift; sourceTree = "<group>"; };
 		FF1730EA010EB1E52C9493DD /* ChibaSwiftStaticLinuxSDKPresentation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChibaSwiftStaticLinuxSDKPresentation.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +103,8 @@
 				CF134E332CFF5A7200B96E0E /* HelloFullerSlide.swift */,
 				CF71DA852D008D6A000BEFDB /* AboutStaticLinuxSDKSlide.swift */,
 				CF71DA812D008C42000BEFDB /* LinkingSlide.swift */,
+				CF71DA892D00B069000BEFDB /* IncludingStaticSDKDockerImageSlide.swift */,
+				CF71DA8B2D00B16D000BEFDB /* PerformanceHelloSlide.swift */,
 				CF134E3C2CFFFFFE00B96E0E /* ReferenceSlide.swift */,
 				CF134E352CFF5C1500B96E0E /* AcknowledgementSlide.swift */,
 			);
@@ -191,9 +197,11 @@
 				CF71DA822D008C42000BEFDB /* LinkingSlide.swift in Sources */,
 				CF71DA862D008D6A000BEFDB /* AboutStaticLinuxSDKSlide.swift in Sources */,
 				CF71DA802D008C00000BEFDB /* SlideTitle.swift in Sources */,
+				CF71DA8A2D00B069000BEFDB /* IncludingStaticSDKDockerImageSlide.swift in Sources */,
 				E637CCC04E90B84F319CFD93 /* SlideConfiguration.swift in Sources */,
 				CF134E362CFF5C1500B96E0E /* AcknowledgementSlide.swift in Sources */,
 				CF134E3D2CFFFFFE00B96E0E /* ReferenceSlide.swift in Sources */,
+				CF71DA8C2D00B16D000BEFDB /* PerformanceHelloSlide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

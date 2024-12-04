@@ -21,9 +21,9 @@ struct TitleSlide: View {
 
   var title: some View {
     VStack(alignment: .center, spacing: 8) {
-      Text("入門 Swift Static Linux SDK")
+      Text("入門 Static Linux SDK")
         .font(.system(size: 90, weight: .bold))
-      Text("Introduction Swift Static Linux SDK")
+      Text("Meet Static Linux SDK")
         .font(.system(size: 55, weight: .bold))
     }
   }

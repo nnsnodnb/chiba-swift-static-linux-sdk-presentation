@@ -11,7 +11,7 @@ import SwiftUI
 @Slide
 struct LinkingSlide: View {
   enum SlidePhasedState: Int, PhasedState {
-    case initial, dynamic, `static`
+    case initial, dynamic, `static`, dynamicDemo, staticDemo
   }
 
   @Phase var phase: SlidePhasedState
@@ -56,6 +56,40 @@ struct LinkingSlide: View {
           item(japanese: "実行バイナリが大きい", english: "The executable binary is large.")
           item(japanese: "パフォーマンス 🤩", english: "Performance 🤩")
         }
+//        if phase == .dynamicDemo {
+//          item(japanese: "動的リンク", english: "Dynamic Linking")
+//          Code(
+//            """
+//$ ls -sh .build/debug/hello
+//76K .build/debug/hello
+//
+//$ time .build/debug/hello
+//Hello, world!
+//
+//real  0m0.010s
+//user  0m0.005s
+//sys  0m0.005s
+//""",
+//            colorTheme: .defaultDark
+//          )
+//        }
+//        if phase == .staticDemo {
+//          item(japanese: "静的リンク", english: "Static Linking")
+//          Code(
+//            """
+//$ ls -sh .build/debug/hello
+//41M .build/debug/hello
+//
+//$ time .build/debug/hello
+//Hello, world!
+//
+//real  0m0.002s
+//user  0m0.000s
+//sys  0m0.002s
+//""",
+//            colorTheme: .defaultDark
+//          )
+//        }
       }
     )
   }
@@ -100,5 +134,19 @@ struct LinkingSlide_Preview: PreviewProvider {
     }
     .previewColor(foreground: .white, background: .black)
     .previewDisplayName("Linking Slide - Static")
+
+    SlidePreview {
+      LinkingSlide()
+        .phase(.dynamicDemo)
+    }
+    .previewColor(foreground: .white, background: .black)
+    .previewDisplayName("Linking Slide - Dynamic Demo")
+
+    SlidePreview {
+      LinkingSlide()
+        .phase(.staticDemo)
+    }
+    .previewColor(foreground: .white, background: .black)
+    .previewDisplayName("Linking Slide - Static Demo")
   }
 }
