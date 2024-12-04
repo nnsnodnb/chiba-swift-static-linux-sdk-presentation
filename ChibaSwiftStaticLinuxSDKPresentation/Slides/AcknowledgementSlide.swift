@@ -21,12 +21,14 @@ struct AcknowledgementSlide: View {
         }
       },
       content: {
-        Item("mtj0928/SlideGen")
+        Item("mtj0928/SlideGen") {
+          Item("https://github.com/mtj0928/SlideGen", accessory: nil)
+        }
         Item("mtj0928/SlideKit") {
-          Item("https://github.com/mtj0928/SlideKit/blob/main/LICENSE", accessory: nil)
+          Item("https://github.com/mtj0928/SlideKit", accessory: nil)
         }
         Item("Fuller. Inc.") {
-          Item("https://www.fuller-inc.com")
+          Item("https://www.fuller-inc.com", accessory: nil)
         }
       }
     )

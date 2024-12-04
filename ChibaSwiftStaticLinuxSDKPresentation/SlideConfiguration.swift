@@ -18,6 +18,7 @@ struct SlideConfiguration {
     TitleSlide()
     SelfIntroduction()
     HelloFuller()
+    ReferenceSlide()
     AcknowledgementSlide()
   }
 }
