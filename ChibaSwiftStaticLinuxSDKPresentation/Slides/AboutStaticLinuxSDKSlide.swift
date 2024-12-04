@@ -15,6 +15,7 @@ struct AboutStaticLinuxSDKSlide: View {
   }
 
   @Phase var phase: SlidePhasedState
+
   var body: some View {
     HeaderSlide(
       header: {
