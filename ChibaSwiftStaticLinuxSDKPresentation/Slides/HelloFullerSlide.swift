@@ -1,5 +1,5 @@
 //
-//  HelloFuller.swift
+//  HelloFullerSlide.swift
 //  ChibaSwiftStaticLinuxSDKPresentation
 //
 //  Created by Yuya Oka on 2024/12/04.
@@ -9,7 +9,7 @@ import SlideKit
 import SwiftUI
 
 @Slide
-struct HelloFuller: View {
+struct HelloFullerSlide: View {
   var body: some View {
     VStack(alignment: .center, spacing: 20) {
       Text("フラーの皆さんお久しぶりです👋")
@@ -24,6 +24,7 @@ struct HelloFuller: View {
 
 #Preview {
   SlidePreview {
-    HelloFuller()
+    HelloFullerSlide()
   }
+  .previewColor(foreground: .white, background: .black)
 }

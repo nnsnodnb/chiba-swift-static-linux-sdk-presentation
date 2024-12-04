@@ -1,5 +1,5 @@
 //
-//  SelfIntroduction.swift
+//  SelfIntroductionSlide.swift
 //  ChibaSwiftStaticLinuxSDKPresentation
 //
 //  Created by Yuya Oka on 2024/12/03.
@@ -9,7 +9,7 @@ import SlideKit
 import SwiftUI
 
 @Slide
-struct SelfIntroduction: View {
+struct SelfIntroductionSlide: View {
   enum SlidePhasedState: Int, PhasedState {
     case initial, name, sns, job, lived, worked
   }
@@ -72,8 +72,12 @@ struct SelfIntroduction: View {
   }
 }
 
-#Preview {
-  SlidePreview {
-    SelfIntroduction()
+struct SelfIntroductionSlide_Previews: PreviewProvider {
+  static var previews: some View {
+    SlidePreview {
+      SelfIntroductionSlide()
+        .phase(.worked)
+    }
+    .previewColor(foreground: .white, background: .black)
   }
 }

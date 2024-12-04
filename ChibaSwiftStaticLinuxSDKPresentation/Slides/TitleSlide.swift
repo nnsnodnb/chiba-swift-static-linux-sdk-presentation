@@ -38,4 +38,5 @@ struct TitleSlide: View {
   SlidePreview {
     TitleSlide()
   }
+  .previewColor(foreground: .white, background: .black)
 }

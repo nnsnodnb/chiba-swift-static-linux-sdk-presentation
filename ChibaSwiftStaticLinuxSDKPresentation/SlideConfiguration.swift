@@ -17,8 +17,10 @@ struct SlideConfiguration {
   let slideIndexController = SlideIndexController {
     TitleSlide()
     AgendaSlide()
-    SelfIntroduction()
-    HelloFuller()
+    SelfIntroductionSlide()
+    HelloFullerSlide()
+    AboutStaticLinuxSDKSlide()
+    LinkingSlide()
     ReferenceSlide()
     AcknowledgementSlide()
   }

@@ -37,4 +37,5 @@ struct ReferenceSlide: View {
   SlidePreview {
     ReferenceSlide()
   }
+  .previewColor(foreground: .white, background: .black)
 }

@@ -17,8 +17,8 @@ struct AgendaSlide: View {
       },
       content: {
         Item("お前誰よ (自己紹介)")
-        Item("動的リンク・静的リンクについて")
         Item("Static Linux SDK について")
+        Item("動的リンク・静的リンクについて")
         Item("パフォーマンス検証")
         Item("まとめ")
         Item("参考")
@@ -32,4 +32,5 @@ struct AgendaSlide: View {
   SlidePreview {
     AgendaSlide()
   }
+  .previewColor(foreground: .white, background: .black)
 }

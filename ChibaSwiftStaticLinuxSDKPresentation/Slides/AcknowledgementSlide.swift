@@ -34,4 +34,5 @@ struct AcknowledgementSlide: View {
   SlidePreview {
     AcknowledgementSlide()
   }
+  .previewColor(foreground: .white, background: .black)
 }
