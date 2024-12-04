@@ -1,4 +1,4 @@
-# chiba-swift-swift-linux-sdk-presentation
+# chiba-swift-static-linux-sdk-presentation
 
 [Chiba.swift #2](https://chibaswift.connpass.com/event/331925/)での発表スライドです。
 

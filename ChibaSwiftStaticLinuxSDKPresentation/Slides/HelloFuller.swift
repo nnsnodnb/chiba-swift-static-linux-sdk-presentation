@@ -1,6 +1,6 @@
 //
 //  HelloFuller.swift
-//  ChibaSwiftSwiftLinuxSDKPresentation
+//  ChibaSwiftStaticLinuxSDKPresentation
 //
 //  Created by Yuya Oka on 2024/12/04.
 //

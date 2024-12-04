@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D025F95B88A6A02C31A3EEF /* ChibaSwiftSwiftLinuxSDKPresentationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5F32B4D0070D030095A10 /* ChibaSwiftSwiftLinuxSDKPresentationApp.swift */; };
+		1D025F95B88A6A02C31A3EEF /* ChibaSwiftStaticLinuxSDKPresentationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5F32B4D0070D030095A10 /* ChibaSwiftStaticLinuxSDKPresentationApp.swift */; };
 		7889E1DA4D353B19CECE1F66 /* SlideKit in Frameworks */ = {isa = PBXBuildFile; productRef = D9E8550ED6AB0A42244705A8 /* SlideKit */; };
 		90BAB87D11FC0142F77D23D6 /* SampleSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED8B58BF72793F832AA19F4 /* SampleSlide.swift */; };
 		CF134E342CFF5A7200B96E0E /* HelloFuller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF134E332CFF5A7200B96E0E /* HelloFuller.swift */; };
@@ -20,8 +20,8 @@
 
 /* Begin PBXFileReference section */
 		06A36A6F087DD2752E00EAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		071E181B1C2F7F03C90CE135 /* ChibaSwiftSwiftLinuxSDKPresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChibaSwiftSwiftLinuxSDKPresentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		22F5F32B4D0070D030095A10 /* ChibaSwiftSwiftLinuxSDKPresentationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChibaSwiftSwiftLinuxSDKPresentationApp.swift; sourceTree = "<group>"; };
+		071E181B1C2F7F03C90CE135 /* ChibaSwiftStaticLinuxSDKPresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChibaSwiftStaticLinuxSDKPresentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F5F32B4D0070D030095A10 /* ChibaSwiftStaticLinuxSDKPresentationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChibaSwiftStaticLinuxSDKPresentationApp.swift; sourceTree = "<group>"; };
 		5ED8B58BF72793F832AA19F4 /* SampleSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSlide.swift; sourceTree = "<group>"; };
 		CAB79A7067A5B23208533A0F /* SlideConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideConfiguration.swift; sourceTree = "<group>"; };
 		CF134E332CFF5A7200B96E0E /* HelloFuller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloFuller.swift; sourceTree = "<group>"; };
@@ -29,7 +29,7 @@
 		CF134E372CFF5F9700B96E0E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		CF5EE3A42CFF4B0900478D54 /* TitleSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSlide.swift; sourceTree = "<group>"; };
 		CF5EE3A62CFF4D6600478D54 /* SelfIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfIntroduction.swift; sourceTree = "<group>"; };
-		FF1730EA010EB1E52C9493DD /* ChibaSwiftSwiftLinuxSDKPresentation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChibaSwiftSwiftLinuxSDKPresentation.entitlements; sourceTree = "<group>"; };
+		FF1730EA010EB1E52C9493DD /* ChibaSwiftStaticLinuxSDKPresentation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChibaSwiftStaticLinuxSDKPresentation.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +47,7 @@
 		2E8BE1094CFC550195BA761F = {
 			isa = PBXGroup;
 			children = (
-				50FBB08A7050C4D9AD0DCEF2 /* ChibaSwiftSwiftLinuxSDKPresentation */,
+				50FBB08A7050C4D9AD0DCEF2 /* ChibaSwiftStaticLinuxSDKPresentation */,
 				47AC739BAFB9790DF0CC4286 /* Products */,
 			);
 			indentWidth = 2;
@@ -57,22 +57,22 @@
 		47AC739BAFB9790DF0CC4286 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				071E181B1C2F7F03C90CE135 /* ChibaSwiftSwiftLinuxSDKPresentation.app */,
+				071E181B1C2F7F03C90CE135 /* ChibaSwiftStaticLinuxSDKPresentation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		50FBB08A7050C4D9AD0DCEF2 /* ChibaSwiftSwiftLinuxSDKPresentation */ = {
+		50FBB08A7050C4D9AD0DCEF2 /* ChibaSwiftStaticLinuxSDKPresentation */ = {
 			isa = PBXGroup;
 			children = (
-				FF1730EA010EB1E52C9493DD /* ChibaSwiftSwiftLinuxSDKPresentation.entitlements */,
-				22F5F32B4D0070D030095A10 /* ChibaSwiftSwiftLinuxSDKPresentationApp.swift */,
+				FF1730EA010EB1E52C9493DD /* ChibaSwiftStaticLinuxSDKPresentation.entitlements */,
+				22F5F32B4D0070D030095A10 /* ChibaSwiftStaticLinuxSDKPresentationApp.swift */,
 				06A36A6F087DD2752E00EAE1 /* Info.plist */,
 				CAB79A7067A5B23208533A0F /* SlideConfiguration.swift */,
 				CA195DFB2A5078C6C5440A5E /* Slides */,
 				CF134E372CFF5F9700B96E0E /* Colors.xcassets */,
 			);
-			path = ChibaSwiftSwiftLinuxSDKPresentation;
+			path = ChibaSwiftStaticLinuxSDKPresentation;
 			sourceTree = "<group>";
 		};
 		CA195DFB2A5078C6C5440A5E /* Slides */ = {
@@ -90,9 +90,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		429C6B5F95A43C746D41E473 /* ChibaSwiftSwiftLinuxSDKPresentation */ = {
+		429C6B5F95A43C746D41E473 /* ChibaSwiftStaticLinuxSDKPresentation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3AA3355A7980B565C4C40DB /* Build configuration list for PBXNativeTarget "ChibaSwiftSwiftLinuxSDKPresentation" */;
+			buildConfigurationList = A3AA3355A7980B565C4C40DB /* Build configuration list for PBXNativeTarget "ChibaSwiftStaticLinuxSDKPresentation" */;
 			buildPhases = (
 				CF134E3A2CFF609600B96E0E /* Resources */,
 				8DA41CF1DF6DDC89DD047089 /* Sources */,
@@ -102,12 +102,12 @@
 			);
 			dependencies = (
 			);
-			name = ChibaSwiftSwiftLinuxSDKPresentation;
+			name = ChibaSwiftStaticLinuxSDKPresentation;
 			packageProductDependencies = (
 				D9E8550ED6AB0A42244705A8 /* SlideKit */,
 			);
 			productName = ChibaSwiftSwiftLinuxSDKPresentation;
-			productReference = 071E181B1C2F7F03C90CE135 /* ChibaSwiftSwiftLinuxSDKPresentation.app */;
+			productReference = 071E181B1C2F7F03C90CE135 /* ChibaSwiftStaticLinuxSDKPresentation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -117,9 +117,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1610;
 			};
-			buildConfigurationList = 1EB7B8D6EB1DE32F7705531B /* Build configuration list for PBXProject "ChibaSwiftSwiftLinuxSDKPresentation" */;
+			buildConfigurationList = 1EB7B8D6EB1DE32F7705531B /* Build configuration list for PBXProject "ChibaSwiftStaticLinuxSDKPresentation" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -134,7 +134,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				429C6B5F95A43C746D41E473 /* ChibaSwiftSwiftLinuxSDKPresentation */,
+				429C6B5F95A43C746D41E473 /* ChibaSwiftStaticLinuxSDKPresentation */,
 			);
 		};
 /* End PBXProject section */
@@ -155,7 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D025F95B88A6A02C31A3EEF /* ChibaSwiftSwiftLinuxSDKPresentationApp.swift in Sources */,
+				1D025F95B88A6A02C31A3EEF /* ChibaSwiftStaticLinuxSDKPresentationApp.swift in Sources */,
 				90BAB87D11FC0142F77D23D6 /* SampleSlide.swift in Sources */,
 				CF5EE3A72CFF4D6600478D54 /* SelfIntroduction.swift in Sources */,
 				CF5EE3A52CFF4B0900478D54 /* TitleSlide.swift in Sources */,
@@ -174,7 +174,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = ChibaSwiftSwiftLinuxSDKPresentation/Info.plist;
+				DEAD_CODE_STRIPPING = YES;
+				INFOPLIST_FILE = ChibaSwiftStaticLinuxSDKPresentation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -182,6 +183,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.mtj0928.SlideGen.ChibaSwiftSwiftLinuxSDKPresentation;
+				PRODUCT_NAME = ChibaSwiftStaticLinuxSDKPresentation;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -220,9 +222,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -275,9 +279,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -309,7 +315,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = ChibaSwiftSwiftLinuxSDKPresentation/Info.plist;
+				DEAD_CODE_STRIPPING = YES;
+				INFOPLIST_FILE = ChibaSwiftStaticLinuxSDKPresentation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -317,6 +324,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.mtj0928.SlideGen.ChibaSwiftSwiftLinuxSDKPresentation;
+				PRODUCT_NAME = ChibaSwiftStaticLinuxSDKPresentation;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -324,7 +332,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1EB7B8D6EB1DE32F7705531B /* Build configuration list for PBXProject "ChibaSwiftSwiftLinuxSDKPresentation" */ = {
+		1EB7B8D6EB1DE32F7705531B /* Build configuration list for PBXProject "ChibaSwiftStaticLinuxSDKPresentation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7658D93444498CCA78B37DE /* Debug */,
@@ -333,7 +341,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		A3AA3355A7980B565C4C40DB /* Build configuration list for PBXNativeTarget "ChibaSwiftSwiftLinuxSDKPresentation" */ = {
+		A3AA3355A7980B565C4C40DB /* Build configuration list for PBXNativeTarget "ChibaSwiftStaticLinuxSDKPresentation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3058D65B0C7B9F0F2DDDE9A6 /* Debug */,

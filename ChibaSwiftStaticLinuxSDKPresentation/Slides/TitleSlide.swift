@@ -1,6 +1,6 @@
 //
 //  TitleSlide.swift
-//  ChibaSwiftSwiftLinuxSDKPresentation
+//  ChibaSwiftStaticLinuxSDKPresentation
 //
 //  Created by Yuya Oka on 2024/12/03.
 //
@@ -21,9 +21,9 @@ struct TitleSlide: View {
 
   var title: some View {
     VStack(alignment: .center, spacing: 8) {
-      Text("入門 Swift Linux SDK")
+      Text("入門 Swift Static Linux SDK")
         .font(.system(size: 90, weight: .bold))
-      Text("Introduction Swift Linux SDK")
+      Text("Introduction Swift Static Linux SDK")
         .font(.system(size: 55, weight: .bold))
     }
   }
