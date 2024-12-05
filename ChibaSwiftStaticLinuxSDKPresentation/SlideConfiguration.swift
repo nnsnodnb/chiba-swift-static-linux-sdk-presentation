@@ -25,6 +25,7 @@ struct SlideConfiguration {
     IncludingStaticSDKDockerImageSlide()
     PerformanceHelloSlide()
     PerformanceVaporSlide()
+    PerformanceMimallockSlide()
     ReferenceSlide()
     AcknowledgementSlide()
   }

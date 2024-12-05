@@ -25,6 +25,7 @@
 		CF71DA8A2D00B069000BEFDB /* IncludingStaticSDKDockerImageSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71DA892D00B069000BEFDB /* IncludingStaticSDKDockerImageSlide.swift */; };
 		CF71DA8C2D00B16D000BEFDB /* PerformanceHelloSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71DA8B2D00B16D000BEFDB /* PerformanceHelloSlide.swift */; };
 		CF71DA902D02169C000BEFDB /* PerformanceVaporSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71DA8F2D02169C000BEFDB /* PerformanceVaporSlide.swift */; };
+		CF71DA922D022E08000BEFDB /* PerformanceMimallockSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71DA912D022E08000BEFDB /* PerformanceMimallockSlide.swift */; };
 		E637CCC04E90B84F319CFD93 /* SlideConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB79A7067A5B23208533A0F /* SlideConfiguration.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		CF71DA892D00B069000BEFDB /* IncludingStaticSDKDockerImageSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncludingStaticSDKDockerImageSlide.swift; sourceTree = "<group>"; };
 		CF71DA8B2D00B16D000BEFDB /* PerformanceHelloSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceHelloSlide.swift; sourceTree = "<group>"; };
 		CF71DA8F2D02169C000BEFDB /* PerformanceVaporSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceVaporSlide.swift; sourceTree = "<group>"; };
+		CF71DA912D022E08000BEFDB /* PerformanceMimallockSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceMimallockSlide.swift; sourceTree = "<group>"; };
 		FF1730EA010EB1E52C9493DD /* ChibaSwiftStaticLinuxSDKPresentation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChibaSwiftStaticLinuxSDKPresentation.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +113,7 @@
 				CF71DA892D00B069000BEFDB /* IncludingStaticSDKDockerImageSlide.swift */,
 				CF71DA8B2D00B16D000BEFDB /* PerformanceHelloSlide.swift */,
 				CF71DA8F2D02169C000BEFDB /* PerformanceVaporSlide.swift */,
+				CF71DA912D022E08000BEFDB /* PerformanceMimallockSlide.swift */,
 				CF134E3C2CFFFFFE00B96E0E /* ReferenceSlide.swift */,
 				CF134E352CFF5C1500B96E0E /* AcknowledgementSlide.swift */,
 			);
@@ -199,6 +202,7 @@
 				90BAB87D11FC0142F77D23D6 /* SampleSlide.swift in Sources */,
 				CF5EE3A72CFF4D6600478D54 /* SelfIntroductionSlide.swift in Sources */,
 				CF5EE3A52CFF4B0900478D54 /* TitleSlide.swift in Sources */,
+				CF71DA922D022E08000BEFDB /* PerformanceMimallockSlide.swift in Sources */,
 				CF134E442D0150D900B96E0E /* LinuxSupportUntilNowSlide.swift in Sources */,
 				CF134E3F2D00182600B96E0E /* AgendaSlide.swift in Sources */,
 				CF134E342CFF5A7200B96E0E /* HelloFullerSlide.swift in Sources */,
