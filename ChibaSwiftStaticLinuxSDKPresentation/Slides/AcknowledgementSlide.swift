@@ -16,14 +16,17 @@ struct AcknowledgementSlide: View {
         SlideTitle(japanese: "謝辞", english: "Acknowledgements")
       },
       content: {
+        Item("Fuller. Inc.") {
+          Item("https://www.fuller-inc.com", accessory: nil)
+        }
         Item("mtj0928/SlideGen") {
           Item("https://github.com/mtj0928/SlideGen", accessory: nil)
         }
         Item("mtj0928/SlideKit") {
           Item("https://github.com/mtj0928/SlideKit", accessory: nil)
         }
-        Item("Fuller. Inc.") {
-          Item("https://www.fuller-inc.com", accessory: nil)
+        Item("@arasan01_me") {
+          Item("https://x.com/arasan01_me", accessory: nil)
         }
       }
     )
