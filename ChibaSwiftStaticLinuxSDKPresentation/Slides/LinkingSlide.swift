@@ -41,7 +41,10 @@ struct LinkingSlide: View {
             english: "CocoaPods is generally used here."
           )
           item(japanese: "実行バイナリが小さい", english: "The executable binary is small.")
-          item(japanese: "パフォーマンス 🤔", english: "Performance 🤔")
+          item(
+            japanese: "動的ライブラリをインストールする必要がある",
+            english: "It’s necessary to install dynamic libraries."
+          )
         }
         if phase == .static {
           Text("静的リンク（Static Linking）")
@@ -54,7 +57,10 @@ struct LinkingSlide: View {
             english: "Swift Package Manager is generally used here."
           )
           item(japanese: "実行バイナリが大きい", english: "The executable binary is large.")
-          item(japanese: "パフォーマンス 🤩", english: "Performance 🤩")
+          item(
+            japanese: "動的ライブラリをインストールする必要がない",
+            english: "It’s not necessary to install dynamic libraries."
+          )
         }
         if phase == .dynamicDemo {
           item(japanese: "動的リンクのバイナリサイズ", english: "Binary size of Dynamic Linking")
