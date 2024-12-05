@@ -53,7 +53,7 @@ struct PerformanceMimallockSlide: View {
               accessory: 2
             )
             Code("""
-    Running 10s test @ http://127.0.0.1:18080
+    Running 10s test @ http://127.0.0.1:8080
       4 threads and 128 connections
       Thread Stats   Avg      Stdev     Max   +/- Stdev
         Latency    10.83ms   33.36ms 603.73ms   98.78%
