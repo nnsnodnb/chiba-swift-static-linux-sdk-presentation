@@ -15,6 +15,7 @@
 		CF134E3B2CFF609C00B96E0E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF134E372CFF5F9700B96E0E /* Colors.xcassets */; };
 		CF134E3D2CFFFFFE00B96E0E /* ReferenceSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF134E3C2CFFFFFE00B96E0E /* ReferenceSlide.swift */; };
 		CF134E3F2D00182600B96E0E /* AgendaSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF134E3E2D00182600B96E0E /* AgendaSlide.swift */; };
+		CF134E442D0150D900B96E0E /* LinuxSupportUntilNowSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF134E432D0150D900B96E0E /* LinuxSupportUntilNowSlide.swift */; };
 		CF5EE3A52CFF4B0900478D54 /* TitleSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5EE3A42CFF4B0900478D54 /* TitleSlide.swift */; };
 		CF5EE3A72CFF4D6600478D54 /* SelfIntroductionSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5EE3A62CFF4D6600478D54 /* SelfIntroductionSlide.swift */; };
 		CF71DA802D008C00000BEFDB /* SlideTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71DA7F2D008C00000BEFDB /* SlideTitle.swift */; };
@@ -37,6 +38,7 @@
 		CF134E372CFF5F9700B96E0E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		CF134E3C2CFFFFFE00B96E0E /* ReferenceSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceSlide.swift; sourceTree = "<group>"; };
 		CF134E3E2D00182600B96E0E /* AgendaSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaSlide.swift; sourceTree = "<group>"; };
+		CF134E432D0150D900B96E0E /* LinuxSupportUntilNowSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxSupportUntilNowSlide.swift; sourceTree = "<group>"; };
 		CF5EE3A42CFF4B0900478D54 /* TitleSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSlide.swift; sourceTree = "<group>"; };
 		CF5EE3A62CFF4D6600478D54 /* SelfIntroductionSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfIntroductionSlide.swift; sourceTree = "<group>"; };
 		CF71DA7F2D008C00000BEFDB /* SlideTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideTitle.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				CF134E3E2D00182600B96E0E /* AgendaSlide.swift */,
 				CF5EE3A62CFF4D6600478D54 /* SelfIntroductionSlide.swift */,
 				CF134E332CFF5A7200B96E0E /* HelloFullerSlide.swift */,
+				CF134E432D0150D900B96E0E /* LinuxSupportUntilNowSlide.swift */,
 				CF71DA852D008D6A000BEFDB /* AboutStaticLinuxSDKSlide.swift */,
 				CF71DA812D008C42000BEFDB /* LinkingSlide.swift */,
 				CF71DA892D00B069000BEFDB /* IncludingStaticSDKDockerImageSlide.swift */,
@@ -192,6 +195,7 @@
 				90BAB87D11FC0142F77D23D6 /* SampleSlide.swift in Sources */,
 				CF5EE3A72CFF4D6600478D54 /* SelfIntroductionSlide.swift in Sources */,
 				CF5EE3A52CFF4B0900478D54 /* TitleSlide.swift in Sources */,
+				CF134E442D0150D900B96E0E /* LinuxSupportUntilNowSlide.swift in Sources */,
 				CF134E3F2D00182600B96E0E /* AgendaSlide.swift in Sources */,
 				CF134E342CFF5A7200B96E0E /* HelloFullerSlide.swift in Sources */,
 				CF71DA822D008C42000BEFDB /* LinkingSlide.swift in Sources */,

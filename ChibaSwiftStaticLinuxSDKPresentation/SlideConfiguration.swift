@@ -19,6 +19,7 @@ struct SlideConfiguration {
     AgendaSlide()
     SelfIntroductionSlide()
     HelloFullerSlide()
+    LinuxSupportUntilNowSlide()
     AboutStaticLinuxSDKSlide()
     LinkingSlide()
     IncludingStaticSDKDockerImageSlide()
