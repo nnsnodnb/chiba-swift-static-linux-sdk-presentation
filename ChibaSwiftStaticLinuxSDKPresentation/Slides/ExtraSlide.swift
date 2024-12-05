@@ -37,6 +37,7 @@ func main() {
   fmt.Println("Hello, world!")
 }
 
+$ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build
 $ ls -sh hello
 2.1M hello
 """,
