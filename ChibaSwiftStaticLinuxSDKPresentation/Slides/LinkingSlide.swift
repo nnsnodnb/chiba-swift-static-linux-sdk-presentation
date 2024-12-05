@@ -57,7 +57,7 @@ struct LinkingSlide: View {
           item(japanese: "パフォーマンス 🤩", english: "Performance 🤩")
         }
         if phase == .dynamicDemo {
-          item(japanese: "動的リンク", english: "Dynamic Linking")
+          item(japanese: "動的リンクのバイナリサイズ", english: "Binary size of Dynamic Linking")
           Code(
             """
 $ ls -sh .build/debug/hello
@@ -67,7 +67,7 @@ $ ls -sh .build/debug/hello
           )
         }
         if phase == .staticDemo {
-          item(japanese: "静的リンク", english: "Static Linking")
+          item(japanese: "静的リンクのサイズ", english: "Binary size of Static Linking")
           Code(
             """
 $ ls -sh .build/debug/hello
