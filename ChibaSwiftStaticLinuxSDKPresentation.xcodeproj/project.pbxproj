@@ -27,6 +27,7 @@
 		CF71DA922D022E08000BEFDB /* PerformanceMimallockSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71DA912D022E08000BEFDB /* PerformanceMimallockSlide.swift */; };
 		CF71DA942D023075000BEFDB /* WrapUpSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71DA932D023075000BEFDB /* WrapUpSlide.swift */; };
 		CF71DA962D023242000BEFDB /* ExtraSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71DA952D023242000BEFDB /* ExtraSlide.swift */; };
+		CF71DA982D023B12000BEFDB /* ThankSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71DA972D023B12000BEFDB /* ThankSlide.swift */; };
 		E637CCC04E90B84F319CFD93 /* SlideConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB79A7067A5B23208533A0F /* SlideConfiguration.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		CF71DA912D022E08000BEFDB /* PerformanceMimallockSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceMimallockSlide.swift; sourceTree = "<group>"; };
 		CF71DA932D023075000BEFDB /* WrapUpSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapUpSlide.swift; sourceTree = "<group>"; };
 		CF71DA952D023242000BEFDB /* ExtraSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraSlide.swift; sourceTree = "<group>"; };
+		CF71DA972D023B12000BEFDB /* ThankSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankSlide.swift; sourceTree = "<group>"; };
 		FF1730EA010EB1E52C9493DD /* ChibaSwiftStaticLinuxSDKPresentation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChibaSwiftStaticLinuxSDKPresentation.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +121,7 @@
 				CF71DA952D023242000BEFDB /* ExtraSlide.swift */,
 				CF134E3C2CFFFFFE00B96E0E /* ReferenceSlide.swift */,
 				CF134E352CFF5C1500B96E0E /* AcknowledgementSlide.swift */,
+				CF71DA972D023B12000BEFDB /* ThankSlide.swift */,
 			);
 			path = Slides;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				CF134E362CFF5C1500B96E0E /* AcknowledgementSlide.swift in Sources */,
 				CF134E3D2CFFFFFE00B96E0E /* ReferenceSlide.swift in Sources */,
 				CF71DA942D023075000BEFDB /* WrapUpSlide.swift in Sources */,
+				CF71DA982D023B12000BEFDB /* ThankSlide.swift in Sources */,
 				CF71DA8C2D00B16D000BEFDB /* PerformanceHelloSlide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

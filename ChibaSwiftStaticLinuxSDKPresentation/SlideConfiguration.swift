@@ -30,5 +30,6 @@ struct SlideConfiguration {
     ExtraSlide()
     ReferenceSlide()
     AcknowledgementSlide()
+    ThankSlide()
   }
 }
