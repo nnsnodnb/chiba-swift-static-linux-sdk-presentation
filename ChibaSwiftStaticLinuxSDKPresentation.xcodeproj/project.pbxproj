@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1D025F95B88A6A02C31A3EEF /* ChibaSwiftStaticLinuxSDKPresentationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5F32B4D0070D030095A10 /* ChibaSwiftStaticLinuxSDKPresentationApp.swift */; };
 		7889E1DA4D353B19CECE1F66 /* SlideKit in Frameworks */ = {isa = PBXBuildFile; productRef = D9E8550ED6AB0A42244705A8 /* SlideKit */; };
-		90BAB87D11FC0142F77D23D6 /* SampleSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED8B58BF72793F832AA19F4 /* SampleSlide.swift */; };
 		CF134E342CFF5A7200B96E0E /* HelloFullerSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF134E332CFF5A7200B96E0E /* HelloFullerSlide.swift */; };
 		CF134E362CFF5C1500B96E0E /* AcknowledgementSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF134E352CFF5C1500B96E0E /* AcknowledgementSlide.swift */; };
 		CF134E3B2CFF609C00B96E0E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF134E372CFF5F9700B96E0E /* Colors.xcassets */; };
@@ -35,7 +34,6 @@
 		06A36A6F087DD2752E00EAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		071E181B1C2F7F03C90CE135 /* ChibaSwiftStaticLinuxSDKPresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChibaSwiftStaticLinuxSDKPresentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F5F32B4D0070D030095A10 /* ChibaSwiftStaticLinuxSDKPresentationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChibaSwiftStaticLinuxSDKPresentationApp.swift; sourceTree = "<group>"; };
-		5ED8B58BF72793F832AA19F4 /* SampleSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSlide.swift; sourceTree = "<group>"; };
 		CAB79A7067A5B23208533A0F /* SlideConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideConfiguration.swift; sourceTree = "<group>"; };
 		CF134E332CFF5A7200B96E0E /* HelloFullerSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloFullerSlide.swift; sourceTree = "<group>"; };
 		CF134E352CFF5C1500B96E0E /* AcknowledgementSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgementSlide.swift; sourceTree = "<group>"; };
@@ -106,7 +104,6 @@
 		CA195DFB2A5078C6C5440A5E /* Slides */ = {
 			isa = PBXGroup;
 			children = (
-				5ED8B58BF72793F832AA19F4 /* SampleSlide.swift */,
 				CF5EE3A42CFF4B0900478D54 /* TitleSlide.swift */,
 				CF134E3E2D00182600B96E0E /* AgendaSlide.swift */,
 				CF5EE3A62CFF4D6600478D54 /* SelfIntroductionSlide.swift */,
@@ -205,7 +202,6 @@
 			files = (
 				1D025F95B88A6A02C31A3EEF /* ChibaSwiftStaticLinuxSDKPresentationApp.swift in Sources */,
 				CF71DA902D02169C000BEFDB /* PerformanceVaporSlide.swift in Sources */,
-				90BAB87D11FC0142F77D23D6 /* SampleSlide.swift in Sources */,
 				CF5EE3A72CFF4D6600478D54 /* SelfIntroductionSlide.swift in Sources */,
 				CF71DA962D023242000BEFDB /* ExtraSlide.swift in Sources */,
 				CF5EE3A52CFF4B0900478D54 /* TitleSlide.swift in Sources */,
