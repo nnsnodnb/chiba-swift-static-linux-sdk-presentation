@@ -21,10 +21,24 @@ struct SelfIntroductionSlide: View {
       SlideTitle(japanese: "お前誰よ", english: "Who am I")
     } content: {
       if phase.isAfter(.name) {
-        item(
-          japanese: "小泉ひやかし",
-          english: "My name is Yuya Oka."
-        )
+        HStack(alignment: .center, spacing: 40) {
+          item(
+            japanese: "小泉ひやかし",
+            english: "My name is Yuya Oka."
+          )
+          HStack(alignment: .center, spacing: 20) {
+            Image(.nnsnodnbIcon)
+              .resizable()
+              .frame(width: 100, height: 100)
+              .clipShape(Circle())
+            Image(.oyIcon)
+              .resizable()
+              .frame(width: 100, height: 100)
+              .clipShape(Circle())
+            Text("こんなアイコンでやってるよ")
+              .font(.system(size: 30))
+          }
+        }
       }
       if phase.isAfter(.sns) {
         item(
