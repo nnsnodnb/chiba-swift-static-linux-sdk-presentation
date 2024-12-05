@@ -27,6 +27,7 @@
 		CF71DA902D02169C000BEFDB /* PerformanceVaporSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71DA8F2D02169C000BEFDB /* PerformanceVaporSlide.swift */; };
 		CF71DA922D022E08000BEFDB /* PerformanceMimallockSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71DA912D022E08000BEFDB /* PerformanceMimallockSlide.swift */; };
 		CF71DA942D023075000BEFDB /* WrapUpSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71DA932D023075000BEFDB /* WrapUpSlide.swift */; };
+		CF71DA962D023242000BEFDB /* ExtraSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71DA952D023242000BEFDB /* ExtraSlide.swift */; };
 		E637CCC04E90B84F319CFD93 /* SlideConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB79A7067A5B23208533A0F /* SlideConfiguration.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		CF71DA8F2D02169C000BEFDB /* PerformanceVaporSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceVaporSlide.swift; sourceTree = "<group>"; };
 		CF71DA912D022E08000BEFDB /* PerformanceMimallockSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceMimallockSlide.swift; sourceTree = "<group>"; };
 		CF71DA932D023075000BEFDB /* WrapUpSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapUpSlide.swift; sourceTree = "<group>"; };
+		CF71DA952D023242000BEFDB /* ExtraSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraSlide.swift; sourceTree = "<group>"; };
 		FF1730EA010EB1E52C9493DD /* ChibaSwiftStaticLinuxSDKPresentation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChibaSwiftStaticLinuxSDKPresentation.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +119,7 @@
 				CF71DA8F2D02169C000BEFDB /* PerformanceVaporSlide.swift */,
 				CF71DA912D022E08000BEFDB /* PerformanceMimallockSlide.swift */,
 				CF71DA932D023075000BEFDB /* WrapUpSlide.swift */,
+				CF71DA952D023242000BEFDB /* ExtraSlide.swift */,
 				CF134E3C2CFFFFFE00B96E0E /* ReferenceSlide.swift */,
 				CF134E352CFF5C1500B96E0E /* AcknowledgementSlide.swift */,
 			);
@@ -204,6 +207,7 @@
 				CF71DA902D02169C000BEFDB /* PerformanceVaporSlide.swift in Sources */,
 				90BAB87D11FC0142F77D23D6 /* SampleSlide.swift in Sources */,
 				CF5EE3A72CFF4D6600478D54 /* SelfIntroductionSlide.swift in Sources */,
+				CF71DA962D023242000BEFDB /* ExtraSlide.swift in Sources */,
 				CF5EE3A52CFF4B0900478D54 /* TitleSlide.swift in Sources */,
 				CF71DA922D022E08000BEFDB /* PerformanceMimallockSlide.swift in Sources */,
 				CF134E442D0150D900B96E0E /* LinuxSupportUntilNowSlide.swift in Sources */,

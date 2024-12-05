@@ -27,6 +27,7 @@ struct SlideConfiguration {
     PerformanceVaporSlide()
     PerformanceMimallockSlide()
     WrapUpSlide()
+    ExtraSlide()
     ReferenceSlide()
     AcknowledgementSlide()
   }
