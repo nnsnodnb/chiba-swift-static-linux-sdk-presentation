@@ -67,7 +67,7 @@ $ ls -sh .build/debug/hello
           )
         }
         if phase == .staticDemo {
-          item(japanese: "静的リンクのサイズ", english: "Binary size of Static Linking")
+          item(japanese: "静的リンクのバイナリサイズ", english: "Binary size of Static Linking")
           Code(
             """
 $ ls -sh .build/debug/hello

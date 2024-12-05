@@ -23,6 +23,7 @@ struct SlideConfiguration {
     AboutStaticLinuxSDKSlide()
     LinkingSlide()
     IncludingStaticSDKDockerImageSlide()
+    PerformanceHelloSlide()
     ReferenceSlide()
     AcknowledgementSlide()
   }
