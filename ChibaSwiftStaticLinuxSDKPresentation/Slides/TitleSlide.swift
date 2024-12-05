@@ -20,12 +20,13 @@ struct TitleSlide: View {
   var shouldHideIndex: Bool { true }
 
   var title: some View {
-    VStack(alignment: .center, spacing: 8) {
-      Text("入門 Static Linux SDK")
+    VStack(alignment: .center, spacing: 12) {
+      Text("Static Linux SDK を使った\nLinux アプリ開発を始めよう！")
         .font(.system(size: 90, weight: .bold))
-      Text("Meet Static Linux SDK")
+      Text("Let’s start Linux app development using the \"Static Linux SDK\"!")
         .font(.system(size: 55, weight: .bold))
     }
+    .multilineTextAlignment(.center)
   }
 
   var eventName: some View {

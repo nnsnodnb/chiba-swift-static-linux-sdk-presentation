@@ -71,7 +71,7 @@ $ file .build/debug/hello
             }
           }
         case .runNoRuntimeCopy, .runNoRuntimeExecute:
-          item(japanese: "ランタイムなしのUbuntuで実行", english: "Runs on Ubuntu without runtime.")
+          item(japanese: "Swift ランタイムなしのUbuntuで実行", english: "Runs on Ubuntu without Swift runtime.")
           if phase.isAfter(.runNoRuntimeCopy) {
             Code("""
 $ docker cp f95bff9ca073:/hello/.build/debug/hello ./hello
