@@ -21,6 +21,7 @@ struct IncludingStaticSDKDockerImageSlide: View {
   }
 
   @Phase var phase: SlidePhasedState
+
   var body: some View {
     if phase == .initial {
       VStack(alignment: .leading, spacing: 20) {

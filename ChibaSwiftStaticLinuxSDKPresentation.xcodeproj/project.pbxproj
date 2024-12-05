@@ -24,6 +24,7 @@
 		CF71DA882D009F2F000BEFDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF71DA872D009F2F000BEFDB /* Assets.xcassets */; };
 		CF71DA8A2D00B069000BEFDB /* IncludingStaticSDKDockerImageSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71DA892D00B069000BEFDB /* IncludingStaticSDKDockerImageSlide.swift */; };
 		CF71DA8C2D00B16D000BEFDB /* PerformanceHelloSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71DA8B2D00B16D000BEFDB /* PerformanceHelloSlide.swift */; };
+		CF71DA902D02169C000BEFDB /* PerformanceVaporSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71DA8F2D02169C000BEFDB /* PerformanceVaporSlide.swift */; };
 		E637CCC04E90B84F319CFD93 /* SlideConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB79A7067A5B23208533A0F /* SlideConfiguration.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		CF71DA872D009F2F000BEFDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF71DA892D00B069000BEFDB /* IncludingStaticSDKDockerImageSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncludingStaticSDKDockerImageSlide.swift; sourceTree = "<group>"; };
 		CF71DA8B2D00B16D000BEFDB /* PerformanceHelloSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceHelloSlide.swift; sourceTree = "<group>"; };
+		CF71DA8F2D02169C000BEFDB /* PerformanceVaporSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceVaporSlide.swift; sourceTree = "<group>"; };
 		FF1730EA010EB1E52C9493DD /* ChibaSwiftStaticLinuxSDKPresentation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChibaSwiftStaticLinuxSDKPresentation.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 				CF71DA812D008C42000BEFDB /* LinkingSlide.swift */,
 				CF71DA892D00B069000BEFDB /* IncludingStaticSDKDockerImageSlide.swift */,
 				CF71DA8B2D00B16D000BEFDB /* PerformanceHelloSlide.swift */,
+				CF71DA8F2D02169C000BEFDB /* PerformanceVaporSlide.swift */,
 				CF134E3C2CFFFFFE00B96E0E /* ReferenceSlide.swift */,
 				CF134E352CFF5C1500B96E0E /* AcknowledgementSlide.swift */,
 			);
@@ -192,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D025F95B88A6A02C31A3EEF /* ChibaSwiftStaticLinuxSDKPresentationApp.swift in Sources */,
+				CF71DA902D02169C000BEFDB /* PerformanceVaporSlide.swift in Sources */,
 				90BAB87D11FC0142F77D23D6 /* SampleSlide.swift in Sources */,
 				CF5EE3A72CFF4D6600478D54 /* SelfIntroductionSlide.swift in Sources */,
 				CF5EE3A52CFF4B0900478D54 /* TitleSlide.swift in Sources */,
