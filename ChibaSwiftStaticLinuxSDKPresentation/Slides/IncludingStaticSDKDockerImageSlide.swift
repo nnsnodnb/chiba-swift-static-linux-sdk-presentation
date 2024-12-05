@@ -65,7 +65,7 @@ struct IncludingStaticSDKDockerImageSlide: View {
               )
               VStack(alignment: .trailing, spacing: 20) {
                 Text("https://x.com/nnsnodnb/status/1843598365839491082")
-                Text("本人から使用許諾済み")
+                Text("本人から使用許諾済み（Thanks @arasan01_me）")
               }
               .padding(.top, 20)
               .frame(maxWidth: .infinity, alignment: .trailing)
@@ -76,7 +76,7 @@ struct IncludingStaticSDKDockerImageSlide: View {
         }
       )
     }
-    if phase == .githubContainerRegistry {
+    if phase.isAfter(.githubContainerRegistry) {
       VStack(alignment: .center, spacing: 30) {
         Code(
           "$ docker pull ghcr.io/arasan01/swift:6.0.1-noble-musl-basic-linux-sdk",
@@ -111,10 +111,15 @@ struct IncludingStaticSDKDockerImageSlide: View {
         Text(english)
           .font(.system(size: 40))
       }
-      Image(.arasan01MeIcon)
-        .resizable()
-        .frame(width: 100, height: 100)
-        .clipShape(Circle())
+      VStack(alignment: .center, spacing: 12) {
+        Image(.arasan01MeIcon)
+          .resizable()
+          .frame(width: 100, height: 100)
+          .clipShape(Circle())
+        Text("@arasan01_me")
+          .font(.system(size: 16))
+      }
+
     }
     .frame(maxWidth: .infinity, alignment: .trailing)
   }
