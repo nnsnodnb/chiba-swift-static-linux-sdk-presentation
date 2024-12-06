@@ -44,6 +44,9 @@ struct PerformanceVaporSlide: View {
                 .font(.system(size: 60))
             }
             Code("""
+# Vapor create
+$ vapor new hello -n
+
 # Build
 $ swift build -c release [--swift-sdk aarch64-swift-linux-musl]
 
